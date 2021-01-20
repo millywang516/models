@@ -36,7 +36,7 @@ class ChnSentiCorp(TSVDataset):
     """
 
     URL = "https://bj.bcebos.com/paddlehub-dataset/chnsenticorp.tar.gz"
-    MD5 = "fbb3217aeac76a2840d2d5cd19688b07"
+    MD5 = ""
     META_INFO = collections.namedtuple(
         'META_INFO', ('file', 'md5', 'field_indices', 'num_discard_samples'))
     SPLITS = {
